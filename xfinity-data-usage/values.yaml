@@ -20,8 +20,8 @@ replicaCount: 1
 
 image:
   repository: docker.io/zachowj/xfinity-data-usage
-  pullPolicy: Always
-  tag: "latest"
+  pullPolicy: IfNotPresent
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
