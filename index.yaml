@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  xfinity-data-usage:
+  - apiVersion: v1
+    created: "2024-07-09T02:05:20.453807918Z"
+    description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish
+      it to MQTT or post it to an URL.
+    digest: fd083aec80d4c21dc85a2b09a58af053ba26fe23473cd01d4eda91c528f47805
+    home: https://github.com/zachowj/xfinity-data-usage
+    keywords:
+    - xfinity
+    - homeassistant
+    name: xfinity-data-usage
+    sources:
+    - https://github.com/naterator/helm-charts/tree/main/xfinity-data-usage
+    urls:
+    - https://github.com/naterator/helm-charts/releases/download/xfinity-data-usage-1.0.1/xfinity-data-usage-1.0.1.tgz
+    version: 1.0.1
+generated: "2024-07-09T02:05:20.453834658Z"
