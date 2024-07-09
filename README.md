@@ -9,7 +9,7 @@ in your enterprise.
 
 ## Contributing
 
-Pull requests are welcome!
+Issues and Pull Requests are appreciated!
 
 ## License
 
