@@ -10,4 +10,4 @@ in your enterprise.
 ## License
 
 This project is licensed under the BSD License. See the
-[LICENSE.md](LICENSE.md) file for details.
+[LICENSE](LICENSE) file for details.
