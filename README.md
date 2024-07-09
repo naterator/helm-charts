@@ -1,4 +1,4 @@
-# Nate's Helm Charts
+# Miscellaneous Helm Charts
 
 <a href="https://www.buymeacoffee.com/naterator" target="_blank">
 <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
