@@ -12,11 +12,12 @@ To learn more, visit <https://github.com/zachowj/xfinity-data-usage>.
 ## Installing the Chart
 
 ```console
-git clone https://github.com/naterator/helm-charts.git
+helm repo add naterator https://naterator.github.io/helm-charts/
+helm repo update
 helm install \
   --set config.xfinity.username=USERNAME_HERE \
   --set config.xfinity.password=PASSWORD_HERE \
-  xfinity-data-usage helm-charts/xfinity-data-usage
+  xfinity-data-usage naterator/xfinity-data-usage
 ```
 
 > **Tip**: List all releases using `helm list`
@@ -80,18 +81,19 @@ Specify each parameter using the `--set key=value` argument to `helm install`.
 For example,
 
 ```console
-git clone https://github.com/naterator/helm-charts.git
+helm repo add naterator https://naterator.github.io/helm-charts/
+helm repo update
 helm install \
   --set config.xfinity.username=USERNAME_HERE \
   --set config.xfinity.password=PASSWORD_HERE \
-  xfinity-data-usage helm-charts/xfinity-data-usage
+  xfinity-data-usage naterator/xfinity-data-usage
 ```
 
 Alternatively, a YAML file that specifies the values for the parameters can be
 provided while installing the chart. For example,
 
 ```console
-helm install -f values.yaml xfinity-data-usage helm-charts/xfinity-data-usage
+helm install -f values.yaml xfinity-data-usage naterator/xfinity-data-usage
 ```
 
 > **Tip**: You can use the default [values.yaml](values.yaml)
