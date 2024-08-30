@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   xfinity-data-usage:
   - apiVersion: v2
+    appVersion: v0.28.0
+    created: "2024-08-30T22:15:11.69389097Z"
+    description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish
+      it to MQTT or post it to an URL.
+    digest: 7dd992f6c9c5d2f8b0127af096e109a728f31f7cf550e6443f4f64652c9540b2
+    name: xfinity-data-usage
+    type: application
+    urls:
+    - https://github.com/naterator/helm-charts/releases/download/xfinity-data-usage-1.28.0/xfinity-data-usage-1.28.0.tgz
+    version: 1.28.0
+  - apiVersion: v2
     appVersion: v0.27.1
     created: "2024-08-01T11:59:15.771480455Z"
     description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish
@@ -89,4 +100,4 @@ entries:
     urls:
     - https://github.com/naterator/helm-charts/releases/download/xfinity-data-usage-1.26.1/xfinity-data-usage-1.26.1.tgz
     version: 1.26.1
-generated: "2024-08-01T11:59:15.771516042Z"
+generated: "2024-08-30T22:15:11.693932757Z"
