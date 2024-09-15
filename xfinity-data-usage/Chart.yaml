@@ -1,6 +1,6 @@
 apiVersion: v2
 name: xfinity-data-usage
 type: application
-version: 1.28.1
-appVersion: "v0.28.1"
+version: 1.30.0
+appVersion: "v0.30.0"
 description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish it to MQTT or post it to an URL.
