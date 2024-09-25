@@ -1,0 +1,49 @@
+config:
+  xfinity:
+    username: ""
+    password: ""
+
+replicaCount: 1
+
+image:
+  repository: ghcr.io/thor0215/hassio-xfinity-usage-amd64:latest
+  pullPolicy: IfNotPresent
+  tag: ""
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: NodePort
+  port: 7878
+
+ingress:
+  enabled: true
+  className: ""
+  annotations: {}
+  hosts:
+    - host: hassio-xfinity-usage.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+podSecurityContext: {}
+
+podAnnotations: {}
+podLabels: {}
+
+securityContext: {}
+
+volumes: []
+
+volumeMounts: []

@@ -1,0 +1,6 @@
+apiVersion: v2
+name: hassio-xfinity-usage
+type: application
+version: 0.1.0 
+appVersion: "v0.0.12.8"
+description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish it to MQTT or post it to an URL.
