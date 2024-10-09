@@ -3,6 +3,17 @@ entries:
   hassio-xfinity-usage:
   - apiVersion: v2
     appVersion: 0.0.12.8.1
+    created: "2024-10-09T20:03:36.998349482Z"
+    description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish
+      it to MQTT or post it to an URL.
+    digest: 12aa87548449233b05df89e9b0147d1d6be2a1f4a8b4253d793dbbfdee81eb23
+    name: hassio-xfinity-usage
+    type: application
+    urls:
+    - https://github.com/naterator/helm-charts/releases/download/hassio-xfinity-usage-0.1.9/hassio-xfinity-usage-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 0.0.12.8.1
     created: "2024-10-09T19:53:11.430272571Z"
     description: Fetch Xfinity data usage and serve it via an HTTP endpoint, publish
       it to MQTT or post it to an URL.
@@ -222,4 +233,4 @@ entries:
     urls:
     - https://github.com/naterator/helm-charts/releases/download/xfinity-data-usage-1.26.1/xfinity-data-usage-1.26.1.tgz
     version: 1.26.1
-generated: "2024-10-09T19:53:11.430323526Z"
+generated: "2024-10-09T20:03:36.998421907Z"
