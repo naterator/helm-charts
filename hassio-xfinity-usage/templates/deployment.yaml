@@ -32,15 +32,15 @@ spec:
           command: ["/bin/sh", "-c", "python3 -Wignore /xfinity_usage_addon.py"]
           env:
           - name: XFINITY_USERNAME
-            value: {{ .Values.config.xfinity.username }}
+            value: "{{ .Values.config.xfinity.username }}"
           - name: XFINITY_PASSWORD
-            value: {{ .Values.config.xfinity.password }}
+            value: "{{ .Values.config.xfinity.password }}"
           - name: MQTT_SERVICE
             value: "1"
           - name: MQTT_HOST
-            value: {{ .Values.config.mqtt.host }}
+            value: "{{ .Values.config.mqtt.host }}"
           - name: MQTT_PORT
-            value: {{ .Values.config.mqtt.port }}
+            value: "{{ .Values.config.mqtt.port }}"
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
