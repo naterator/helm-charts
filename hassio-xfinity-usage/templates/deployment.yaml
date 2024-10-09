@@ -58,7 +58,7 @@ spec:
       volumes:
       - name: config-volume
         emptyDir:
-          sizeLimit: 25Mi
+          sizeLimit: 1Gi
       {{- with .Values.volumes }}
         {{- toYaml . | nindent 8 }}
       {{- end }}
