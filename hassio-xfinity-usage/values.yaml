@@ -4,7 +4,7 @@ config:
     password: ""
   mqtt:
     host: "localhost"
-    port: 1883
+    port: "1883"
 
 replicaCount: 1
 
